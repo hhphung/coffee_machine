@@ -1,0 +1,20 @@
+.image-container {
+  position: relative;
+  text-align: center; /* Center the child elements horizontally */
+}
+
+.smaller-image {
+  width: 100%;
+  max-height: 900px; /* Set the desired height */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+  
+  
