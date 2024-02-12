@@ -8,6 +8,15 @@
   max-height: 900px; /* Set the desired height */
 }
 
+.product-part{
+  background-color: #f5f5f5;
+  padding: 15%;
+}
+.product-pic{
+  box-shadow: 10px 10px 5px #e2e2e2;
+  border-radius: 3%;
+}
+
 .text-overlay {
   position: absolute;
   top: 50%;
@@ -17,4 +26,8 @@
   color: white;
 }
   
-  
+
+.smaller-select {
+  width: 300px; /* Set the desired width */
+  font-size: 14px; /* Set the desired font size */
+}
